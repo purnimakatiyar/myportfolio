@@ -24,7 +24,7 @@ function About() {
               </p>
              
               <div className="about__button d__flex align__items__center">
-                <a href="#">
+                <a href="https://drive.google.com/file/d/1-ZDIeqHSo3keeawSqtc4J3Vlnh14oP9W/view?usp=drivesdk">
                   <button className="about btn pointer">Download Cv</button>
                 </a>
                 <a href="https://www.linkedin.com/in/purnima-katiyar-6a1a92134/" target='_blank'>
