@@ -18,9 +18,10 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                Myself Purnima Katiyar, a second year student pursuing Btech in CSE(Artificial Intelligence) from Galgotias College of Engineering and Technology.
-                I love to explore new techologies. I am skilled in creating and designing websites. I also enjoy competetive Programming, you can find me on Codechef and Leetcode.
-                Apart from programming, I'm also passionate about art, drawing , photo-editing and template or content designing.  
+                Myself Purnima Katiyar, a pre-final year student pursuing Btech in CSE(Artificial Intelligence) from Galgotias College of Engineering and Technology.
+                I love to explore new technologies. I am skilled in creating and designing websites.I have a keen interest in Web development ,content creation and learning AI and ML.
+                Apart from programming, I'm also passionate about art, drawing , photo-editing and template or content designing etc. 
+A coding enthusiast, always ready to learn & explore new techs, love to contribute and glad to work in a team so as to enhance my network and build great connections.
               </p>
              
               <div className="about__button d__flex align__items__center">
