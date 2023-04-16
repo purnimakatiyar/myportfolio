@@ -1,6 +1,6 @@
 import React from 'react';
 import './Contact.css';
-import contactImg from "./img/about.jpeg"
+import contactImg from "./img/mypic.jpg"
 import {FaMapMarkerAlt} from 'react-icons/fa'
 import {FaUser} from 'react-icons/fa'
 
