@@ -97,9 +97,9 @@ function Skills() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">ReactJs, NodeJs</h1>
+                <h1 className="service__text">ReactJs</h1>
                 <p className="p service__text p__color">
-                  I have learnt these for better designing of UI of a website basically to better work on both frontend and backend works.
+                  I have learnt these for better designing of UI of a website basically to better work on frontend works.
                 </p>
               </div>
             </div>
@@ -125,9 +125,9 @@ function Skills() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">MongodB,ExpressJs</h1>
+                <h1 className="service__text">MySQL</h1>
                 <p className="p service__text p__color">
-                  I have learnt these frameworks for document database backend database.
+                  I have learnt this to handle or create database.
                 </p>
               </div>
             </div>
@@ -154,9 +154,9 @@ function Skills() {
                 </svg>
               </div>
               <div className="service__meta">
-                <h1 className="service__text">Python,ML models</h1>
+                <h1 className="service__text">Python</h1>
                 <p className="p service__text p__color">
-                  I have little idea about some models in Machine Learning like linear regression. 
+                  I have learnt this programming language a it is much widely used in organization nowadays. 
                 </p>
               </div>
             </div>
