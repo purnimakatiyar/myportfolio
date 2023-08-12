@@ -25,7 +25,7 @@ function Footer() {
         className="copyright"
         style={{ color: "#c6c9d8", fontSize: "14px", opacity: "0.75", margin:"0 auto" }}
       >
-        Developed and Designed by Purnima Katiyar<br></br>Programmer Learner @2022 
+        Developed and Designed by Purnima Katiyar<br></br>Programmer Learner @2023
       </span>
     </div>
     
