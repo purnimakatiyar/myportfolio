@@ -12,7 +12,7 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-   const [show, setShow] = useState(true);
+   const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -31,6 +31,10 @@ function Home() {
               <a href="#Skills">
                 <li className="nav__items mx__15">Skills</li>
               </a>
+              <a href="#Experience">
+                <li className="nav__items mx__15">Experience</li>
+              </a>
+
               <a href="#Project">
                 <li className="nav__items mx__15">Project</li>
               </a>
@@ -68,6 +72,9 @@ function Home() {
             </li>
             <li className="sideNavbar">
               <a href="#Skills">Skills</a>
+            </li>
+              <li className="sideNavbar">
+              <a href="#Experience">Experience</a>
             </li>
             <li className="sideNavbar">
               <a href="#Project">Project</a>

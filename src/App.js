@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Home from "./Home";
 import Project from "./Project";
 import Skills from "./Skills";
+import Experience from "./Experience";
 
 
 
@@ -14,6 +15,7 @@ function App() {
        <Home />
        <About />
        <Skills />
+       <Experience />   
        <Project />
       
        <Contact />

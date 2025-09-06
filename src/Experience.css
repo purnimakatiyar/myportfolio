@@ -1,0 +1,42 @@
+.experience {
+  background: #000;
+  color: #fff;
+}
+
+.experience__box {
+  background: #111;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.experience__box:hover {
+  transform: translateY(-8px);
+  background: #1a1a1a;
+}
+
+.experience__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.experience__company {
+  color: #f9004d;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.experience__duration {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #aaa;
+}
+
+.experience__desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ddd;
+}
