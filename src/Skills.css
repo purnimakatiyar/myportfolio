@@ -1,52 +1,88 @@
+/* Heading */
 h1.heading {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 700;
-  margin-bottom: 10px;
-}
-p.heading.p__color {
-  margin-bottom: 0;
-  text-align: center;
-  line-height: 1.2;
-}
-.service__box {
-  border-radius: 10px;
-  width: 100%;
-  background-color: #191919;
-  padding: 55px;
-  transition: .4s ease;
-}
-.service__box:hover {
-  transform: translateY(5px);
-  background-image: linear-gradient( 
-90deg,#f61b10,#ef0963);
-}
-.service__box:hover .icon{
+  margin-bottom: 8px;
   color: #fff;
 }
-.service__box:hover p.service__text.p__color{
-  color: #fff!important;
+p.heading.p__color {
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 16px;
+  color: #aaa;
 }
 
-.icon {
-  font-size: 54px;
-  font-weight: 400;
-  margin-bottom: 23px;
-  display: inline-flex;
-  color: #f9004d;
+/* Service Card */
+.service__box {
+  border-radius: 15px;
+  width: 100%;
+  background-color: #191919;
+  padding: 45px 30px;
+  transition: all 0.4s ease;
+  min-height: 260px; /* consistent height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
+.service__box:hover {
+  transform: translateY(-10px) scale(1.02);
+  background-image: linear-gradient(135deg, #f61b10, #ef0963);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Icon styling */
+.icon {
+  font-size: 40px;
+  margin-bottom: 18px;
+  color: #f9004d;
+  background: rgba(249, 0, 77, 0.1);
+  padding: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.service__box:hover .icon {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Titles */
+h1.service__text {
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Paragraph */
 p.service__text.p__color {
   margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
 }
-h1.service__text {
-  font-size: 19px;
-  font-family: Poppins,sans-serif;
-  padding: 10px 0px;
+.service__box:hover p.service__text.p__color {
+  color: #fff !important;
 }
-/* RESPONSIVE */
-@media only screen and (max-width: 1024px){
-.service__box {
-  padding: 32px;
+
+
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+  .service__box {
+    padding: 30px 20px;
+    min-height: auto;
+  }
 }
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    gap: 20px;
+  }
 }

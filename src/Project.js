@@ -124,10 +124,10 @@ function Project() {
                      </div>
                  </div>
              </div>
-
+{/* 
              <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
              <button className="view__more pointer btn">View more</button>
-             </div>
+             </div> */}
 
            </div>
        </div>
